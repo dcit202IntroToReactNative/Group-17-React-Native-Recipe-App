@@ -14,6 +14,18 @@ const AddRecipeScreen = () => {
             return;
         }
 
+         const result = await ImagePicker.launchImageLibraryAsync({
+            mediaTypes: ImagePicker.MediaTypeOptions.Images,
+            allowsEditing: true,
+            aspect: [1, 1],
+            quality: 1,
+        });
+
+        if (!result.canceled) {
+            setImageUri(result.uri);
+        }
+    };
+
 
 
 
