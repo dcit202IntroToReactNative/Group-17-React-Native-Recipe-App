@@ -29,7 +29,12 @@ const AddRecipeScreen = () => {
 
 
 
+return (
+        <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
 
+            <View style={styles.titleContainer}>
+                <Text style={styles.title}> Add New Recipe</Text>
+            </View>
 
 
 
