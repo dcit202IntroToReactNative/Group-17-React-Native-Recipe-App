@@ -39,3 +39,17 @@ const CategoryScreen = () => {
                 flex: 1,
                 margin: 8
             }}>
+            <FlatList
+                    data={categoryData}
+                    vertical
+                    showsHorizontalScrollIndicator={false}
+                    renderItem={renderItem}
+                    keyExtractor={(item) => item.id.toString()}
+                    ItemSeparatorComponent={() => <View style={{ width: 50 }} />}
+                />
+            </View>
+        </View>
+
+    );
+
+};
