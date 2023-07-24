@@ -33,3 +33,9 @@ const CategoryScreen = () => {
                 paddingTop: 100,
                 marginBottom: 10
             }}>
+            Categories
+            </Text>
+            <View style={{
+                flex: 1,
+                margin: 8
+            }}>
