@@ -33,7 +33,12 @@ const categoryData = [
         id: 6,
         categoryName: 'Salads',
         image: require('../assets/cg-salads.png'),
+    },  {
+        id: 7,
+        categoryName: 'Desserts',
+        image: require('../assets/cg-desserts.png'),
     },
+];
 
 
 const CategoryScreen = () => {
