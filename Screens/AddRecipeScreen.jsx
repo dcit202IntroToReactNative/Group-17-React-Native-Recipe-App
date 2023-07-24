@@ -102,6 +102,40 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginBottom: 30,
     },
+    addImageBox: {
+        width: 120,
+        height: 120,
+        backgroundColor: '#F1F1F1',
+        borderRadius: 10,
+        borderWidth: 2,
+        borderColor: '#3200BF',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: 20,
+    },
+    input: {
+        fontSize: 22,
+        fontWeight: '600',
+        borderRadius: 10,
+        borderWidth: 2,
+        borderColor: '#3200BF',
+        backgroundColor: '#F1F1F1',
+        paddingHorizontal: 15,
+        paddingVertical: 1,
+        marginBottom: 30,
+    },
+    largeInput: {
+        fontSize: 10,
+        fontWeight: '600',
+        borderRadius: 10,
+        borderWidth: 2,
+        borderColor: '#3200BF',
+        backgroundColor: '#F1F1F1',
+        paddingHorizontal: 15,
+        paddingVertical: 10,
+        marginBottom: 30,
+        height: 100
+    },
 
 
 
