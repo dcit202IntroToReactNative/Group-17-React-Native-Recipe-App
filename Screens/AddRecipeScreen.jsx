@@ -59,15 +59,29 @@ return (
                 placeholderTextColor="#A9A9A9"
 
             />
+      <TextInput
+                style={styles.largeInput}
+                placeholder="Ingredients"
+                placeholderTextColor="#A9A9A9"
+                multiline
+
+            />
+            <TextInput
+                style={styles.largeInput}
+                placeholder="Ingredients"
+                placeholderTextColor="#A9A9A9"
+                multiline
+
+            />
+            <TouchableOpacity style={styles.saveButton} >
+                <Text style={styles.saveButtonText}>Save Recipe</Text>
+            </TouchableOpacity>
 
 
 
-
-
-
-
-
-
+        </ScrollView>
+    );
+};      
 
 const styles = StyleSheet.create({
     container: {
