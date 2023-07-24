@@ -15,3 +15,7 @@ const categoryData = [
         image: require('../assets/cg-lunch.png'),
     },
 
+const CategoryScreen = () => {
+    const renderItem = ({ item }) => (
+        <CategoryCard Name={item.categoryName} image={item.image} />
+    );
