@@ -15,6 +15,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginBottom: 30,
     },
+      title: {
+        fontSize: 30,
+        fontWeight: 'bold',
+    },
+    addImageContainer: {
+        alignItems: 'center',
+        marginBottom: 30,
+    },
 
 
 
