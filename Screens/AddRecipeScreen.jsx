@@ -47,7 +47,18 @@ return (
                 </TouchableOpacity>
             </View>
 
+  <TextInput
+                style={styles.input}
+                placeholder="Name"
+                placeholderTextColor="#A9A9A9"
 
+            />
+            <TextInput
+                style={styles.input}
+                placeholder="Category"
+                placeholderTextColor="#A9A9A9"
+
+            />
 
 
 
