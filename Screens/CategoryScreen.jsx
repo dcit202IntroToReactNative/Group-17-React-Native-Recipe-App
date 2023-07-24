@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, FlatList, Text } from 'react-native';
+import CategoryCard from '../components/CategoryCard';
 
 
 const categoryData = [
