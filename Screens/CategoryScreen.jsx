@@ -8,4 +8,9 @@ const categoryData = [
         categoryName: 'Breakfast',
         image: require('../assets/cg-breakfast.png'),
     },
+      {
+        id: 2,
+        categoryName: 'Lunch',
+        image: require('../assets/cg-lunch.png'),
+    },
 
