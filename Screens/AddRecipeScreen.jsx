@@ -136,6 +136,25 @@ const styles = StyleSheet.create({
         marginBottom: 30,
         height: 100
     },
+    saveButton: {
+        backgroundColor: '#3200BF',
+        borderRadius: 10,
+        paddingVertical: 15,
+        paddingHorizontal: 30,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    saveButtonText: {
+        color: 'white',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+
+});
+
+export default AddRecipeScreen;
+
+
 
 
 
