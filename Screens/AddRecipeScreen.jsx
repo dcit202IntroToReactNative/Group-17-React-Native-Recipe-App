@@ -37,7 +37,15 @@ return (
             </View>
 
 
-
+ <View style={styles.addImageContainer}>
+                <TouchableOpacity style={styles.addImageBox} onPress={handleAddImage}>
+                    {imageUri ? (
+                        <Image source={{ uri: imageUri }} style={{ width: '100%', height: '100%', borderRadius: 10 }} />
+                    ) : (
+                        <AntDesign name="pluscircleo" size={48} color="#3200BF" />
+                    )}
+                </TouchableOpacity>
+            </View>
 
 
 
