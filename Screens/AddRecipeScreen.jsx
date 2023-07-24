@@ -4,6 +4,35 @@ import { AntDesign } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 
 
+const AddRecipeScreen = () => {
+    const [imageUri, setImageUri] = useState(null);
+
+    const handleAddImage = async () => {
+        const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+        if (status !== 'granted') {
+            alert('Sorry, we need camera roll permissions to pick an image.');
+            return;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
