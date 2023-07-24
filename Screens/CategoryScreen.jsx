@@ -29,6 +29,12 @@ const categoryData = [
         categoryName: 'Soups',
         image: require('../assets/cg-soups.png'),
     },
+    {
+        id: 6,
+        categoryName: 'Salads',
+        image: require('../assets/cg-salads.png'),
+    },
+
 
 const CategoryScreen = () => {
     const renderItem = ({ item }) => (
